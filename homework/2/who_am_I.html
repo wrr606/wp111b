@@ -7,9 +7,9 @@ body {background-color: rgb(0, 0, 0);}
 h1 {color: rgb(0, 162, 255);}
 p {color: rgb(4, 234, 255);}
 label {color: rgb(4, 234, 255);}
-input {background-color: rgb(71, 71, 71);}
-select {background-color: rgb(71, 71, 71);}
-textarea {background-color: rgb(71, 71, 71);}
+input {background-color: rgb(71, 71, 71); color: rgb(200, 200, 200);}
+select {background-color: rgb(71, 71, 71); color: rgb(200, 200, 200);}
+textarea {background-color: rgb(71, 71, 71); color: rgb(200, 200, 200);}
 
 a:link {
   color: rgb(0, 60, 255);
@@ -50,10 +50,12 @@ a:active {
 <p>我不會寫程式。</p>
 <img src="Shirakami Fubuki.gif"/>
 <br><br>
-<p>試做表格</p>
+<p>試做表格：</p>
+<br><br>
 
 <label for="name">請輸入姓名:</label><br>
 <input type="text" id="name" name="姓名" placeholder="姓名"><br>
+<br><br>
 
 <label for="gender">選擇你的性別:</label>
 <select>
@@ -61,11 +63,15 @@ a:active {
     <option value="female">女</option>
 </select>
 <br><br>
+<br><br>
 
+<p>想說的話</p>
 <textarea name="message" rows="10" cols="30" placeholder="請輸入你想說的話"></textarea>
 <br><br>
 
+<p>生日：</p>
 <input type="date" placeholder="生日">
+<br><br>
 <br><br>
 
 <input type="submit" value="送出">
