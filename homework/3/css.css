@@ -36,6 +36,7 @@ a{
     font-size: 15px;
 }
 img{
+    display: block;
     margin: auto;
 }
 thead{
