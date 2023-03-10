@@ -38,3 +38,20 @@ a{
 img{
     margin: auto;
 }
+thead{
+    color: rgb(50, 52, 46);
+    font-family: 微軟正黑體;
+    font-size: 30px;
+    text-align: center;
+}
+tbody{
+    color: rgb(50, 52, 46);
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    text-align: center;
+}
+ul,ol{
+    color: rgb(50, 52, 46);
+    font-family: 微軟正黑體;
+    font-size: 15px;
+}
