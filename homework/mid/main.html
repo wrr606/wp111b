@@ -1,16 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css">
+
 <body>
 
-<h1>猜數字</h1>
-<input type="number" id="input_min" name="input_min" placeholder="最小值"> ~ <input type="number" id="input_max" name="input_max" placeholder="最大值">
-<br><br>
-<h2></h2>
-<br><br>
-<input type="number" id="input_number" name="input_number" placeholder="輸入你猜的數字">
+    <h1>猜數字</h1>
+    <p>範圍：</p>
+    <div id="maxmin">
+        <input value="0" type="number" id="input_min" name="input_min" placeholder="最小值"> ~ <input type="number"
+            id="input_max" name="input_max" value="100" placeholder="最大值">
+    </div>
+    <input type="button" class="button" value="開始遊戲" id="begin"></input>
+    <br><br>
+    <div id="try" style="display: none;">
+        <div id="ans"></div>
+        <br><br>
+        <div>　嘗試次數：</div>
+        <div id="counter">0</div>
+    </div>
+    <br><br>
+    <input style="display: none;" type="number" value="10" id="input_number" name="input_number" placeholder="輸入你猜的數字">
+    <input style="display: none;" type="button" class="button" value="送出" id="submit"></input>
+    <div id="bsa" >
+        <h3>在剛剛猜數字的過程中<br>
+        你會發現如果要快速的猜到數字<br>
+        每一次都會從最中間的數字開始猜<br>
+        例如答案是25，那麼猜2次就猜到<br>
+        因為猜的數字會依序為50、25<br>
+        這種方法在演算法中稱之為：</h3>
+        <br>
+    </div>
+    <div>
+        <h2 id>二分搜尋法</h2>
+        <p>二分搜尋法，顧名思義，就是將全部數列分成</p>
+    </div>
 
-
+    <script style="display: none;" src="main.js"></script>
 </body>
+
 </html>
