@@ -6,58 +6,50 @@ h1 {
     font-size: 40px;
 }
 p,div{
-    text-align: center;
-    color: rgb(50, 52, 46);
-    font-family: 微軟正黑體;
-    font-size: 20px;
-}
-label {
-    text-align: center;
-	font-family: 微軟正黑體;
-    color: rgb(50, 52, 46);
-}
-input {
-    text-align: center;
-	font-family: 微軟正黑體;
-    background-color: rgb(249, 255, 233);
-    color: rgb(111, 117, 98);
-}
-select {
-	font-family: 微軟正黑體;
-    background-color: rgb(249, 255, 233);
-    color: rgb(111, 117, 98);
-}
-textarea {
-    text-align: center;
-	font-family: 微軟正黑體;
-    background-color: rgb(249, 255, 233);
-    color: rgb(111, 117, 98);
-}
-a{
-    color: rgb(86, 103, 48);
-    font-family: 微軟正黑體;
-    font-style: italic;
-    font-size: 15px;
-}
-img{
-    text-align: center;
     display: block;
-    margin: auto;
-}
-thead{
-    color: rgb(50, 52, 46);
-    font-family: 微軟正黑體;
-    font-size: 30px;
     text-align: center;
-}
-tbody{
-    color: rgb(50, 52, 46);
+    margin:0 auto;
+    color: rgb(114, 125, 93);
     font-family: 微軟正黑體;
     font-size: 20px;
+}
+h2 {
+    display: block;
     text-align: center;
-}
-ul,ol{
+    margin:0 auto;
+	font-family: 微軟正黑體;
     color: rgb(50, 52, 46);
-    font-family: 微軟正黑體;
-    font-size: 15px;
 }
+#maxmin{
+    display: block;
+    text-align: center;
+    margin:0 auto;
+	font-family: 微軟正黑體;
+    color: rgb(111, 117, 98);
+}
+#input_number{
+    display: block;
+    text-align: center;
+    margin:0 auto;
+	font-family: 微軟正黑體;
+    color: rgb(56, 59, 49);
+}
+.button{
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    font-family: 微軟正黑體;
+}
+#ans{
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    font-family: 微軟正黑體;
+}
+#bsa{
+    text-align:left;
+    margin-left:150px;
+    margin-right:50px;
+    cursor: pointer;
+}
+#bsa.
