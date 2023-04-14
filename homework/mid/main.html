@@ -23,7 +23,7 @@
     <br><br>
     <input style="display: none;" type="number" value="10" id="input_number" name="input_number" placeholder="輸入你猜的數字">
     <input style="display: none;" type="button" class="button" value="送出" id="submit"></input>
-    <div id="bsa" >
+    <div id="bsa" style="display: none;">
         <h3>在剛剛猜數字的過程中<br>
         你會發現如果要快速的猜到數字<br>
         每一次都會從最中間的數字開始猜<br>
@@ -32,9 +32,18 @@
         這種方法在演算法中稱之為：</h3>
         <br>
     </div>
-    <div>
-        <h2 id>二分搜尋法</h2>
-        <p>二分搜尋法，顧名思義，就是將全部數列分成</p>
+    <div id="introduction" style="display: none;">
+        <h2>二分搜尋法</h2>
+        <div id="content">
+            <h4>二分搜尋法(Binary Search Algorithm)<br>
+            顧名思義，就是從數列的1/2處進行搜尋<br>
+            透過不斷的搜尋，能夠逐漸接近目標<br>
+            避免暴力窮舉(Exhaustive Algorithm)搜尋整個數列<br>
+            時間複雜度O(nlogn)<br>
+            但在使用二分搜前，需將整個數列排序
+            </h4>
+            <img src="Binary_search_into_array.png">
+        </div>
     </div>
 
     <script style="display: none;" src="main.js"></script>

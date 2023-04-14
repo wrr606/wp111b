@@ -16,6 +16,7 @@ function submit_function(){
 }
 
 function bsa(){
+    document.getElementById("introduction").style.display="block";
     document.getElementById("bsa").style.display="block";
 }
 

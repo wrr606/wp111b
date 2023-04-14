@@ -52,4 +52,13 @@ h2 {
     margin-right:50px;
     cursor: pointer;
 }
-#bsa.
+.introduction{
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+#content{
+    text-align:left;
+    margin-left:120px;
+    margin-right:50px;
+}
