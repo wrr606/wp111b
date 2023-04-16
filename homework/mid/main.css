@@ -47,9 +47,9 @@ h2 {
     font-family: 微軟正黑體;
 }
 #bsa{
-    text-align:left;
-    margin-left:650px;
-    margin-right:50px;
+    display: block;
+    text-align: center;
+    margin:0 auto;
     cursor: pointer;
 }
 .introduction{
@@ -59,6 +59,7 @@ h2 {
 }
 #content{
     text-align:left;
-    margin-left:650px;
-    margin-right:50px;
+    display: block;
+    text-align: center;
+    margin:0 auto;
 }
