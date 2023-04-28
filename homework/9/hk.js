@@ -2,6 +2,14 @@ function dropbutton_click(){
     document.getElementById("droplist").classList.toggle("show");
 }
 
+window.onclick=function(click){
+    if(!click.target.matches(".dropbutton")){
+        let droplist=document.getElementById("droplist");
+        if(droplist.classList.contains("show"))
+            droplist.classList.remove("show");
+    }
+}
+
 let pages={
     "#home":"這裡是首頁",
     "#login":`
@@ -12,7 +20,7 @@ let pages={
     <input type="submit" value="登入">
     `,
     "#logout":`
-    <label>確定要登出？</label><br><br>
+    <label>確定要登出？</label><br>
     <input type="submit" value="確定">
     <input type="submit" value="取消">
     `,
@@ -30,12 +38,4 @@ let main = document.querySelector('#main')
 window.onhashchange = function () {
     let hash = window.location.hash
     main.innerHTML = pages[hash]
-}
-
-window.onclick=function(click){
-    if(!click.target.matches(".dropbutton")){
-        let droplist=document.getElementById("droplist");
-        if(droplist.classList.contains("show"))
-            droplist.classList.remove("show");
-    }
 }
