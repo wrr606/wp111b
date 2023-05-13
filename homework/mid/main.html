@@ -14,7 +14,8 @@
     <input type="button" class="button" value="開始遊戲" id="begin"></input>
     <br><br>
     <div id="try" style="display: none;">
-        <div id="ans"></div>
+        <div id="ans"  style="display: none;"></div>
+        <div id="range"></div>
         <br><br>
         <div>　嘗試次數：</div>
         <div id="counter">0</div>
@@ -22,7 +23,9 @@
     <br><br>
     <input style="display: none;" type="number" value="10" id="input_number" name="input_number" placeholder="輸入你猜的數字">
     <input style="display: none;" type="button" class="button" value="送出" id="submit"></input>
-    <div id="bsa" style="display: none;">
+    <br><br>
+    <input style="display: none;" type="button" class="button" value="延伸知識" id="extension"></input>
+    <div id="bsa">
         <h3>在剛剛猜數字的過程中<br>
         你會發現如果要快速的猜到數字<br>
         每一次都會從最中間的數字開始猜<br>
@@ -31,7 +34,7 @@
         這種方法在演算法中稱之為：</h3>
         <br>
     </div>
-    <div id="introduction" style="display: none;">
+    <div id="introduction">
         <h2>二分搜尋法</h2>
         <div id="content">
             <h4>二分搜尋法(Binary Search Algorithm)<br>
