@@ -82,7 +82,7 @@ h2 {
     text-align: left;
     max-width: 400px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 50px;
     opacity: 0;
     animation: slide 2s forwards;
     display: none;
