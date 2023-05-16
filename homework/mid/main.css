@@ -76,15 +76,22 @@ h2 {
     font-family: 微軟正黑體;
 }
 
-#introduction,
+#content,
 #bsa {
     text-align: left;
-    max-width: 450px;
+    max-width: 100%;
     margin-right: auto;
     margin-left: 40%;
     opacity: 0;
     animation: slide 2s forwards;
     display: none;
+}
+
+#introduction h2{
+    text-align: center;
+    display: none;
+    opacity: 0;
+    animation: slide 2s forwards;
 }
 
 @keyframes slide {

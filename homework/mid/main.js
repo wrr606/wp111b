@@ -28,7 +28,7 @@ function submit_function(){
 }
 
 function bsa(){
-    document.getElementById("introduction").style.display="block";
+    document.querySelector("#introduction h2").style.display="block";
     document.getElementById("bsa").style.display="block";
     document.getElementById("content").style.display="block";
 }
