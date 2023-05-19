@@ -1,3 +1,3 @@
-window.addEventListener('keydown', function(e){
-  console.log(e.code)
-}, false);
+let s="123456789";
+s=s[0]+s;
+console.log(s)
